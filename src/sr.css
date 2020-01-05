@@ -1,0 +1,147 @@
+.row1 {
+    background: #f00;
+}
+
+.row2 {
+    background: #00f;
+}
+img{
+    width: 100px ;
+    height: 50px;
+}
+.header {
+    border-bottom: 0.1px solid #989489;
+    width: 100%;
+    height: 105px;
+    position: fixed;
+    top: 0px;
+    color: white;
+    font-size: 15px;
+    transition: 0.1s;
+    z-index: 20;
+}
+
+#homeLeft {
+    font-size: 15px;
+}
+#homeRight{
+    font-size: 20px;
+}
+
+.view1 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: RalewayB;
+    color: #444444;
+    padding-bottom: 60px;
+}
+#butBy {
+    background-color: rgb(37, 175, 148);
+    color: white;
+    font-size: 16px;
+    font-family: LatoB;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    transition: 0.5s;
+    float: left;
+    padding: 5px;
+}
+#i1:hover{
+    background-color: #3B5998;
+}
+#i2:hover{
+    background-color: #DD4B39;
+}
+#i3:hover{
+    background-color: #00A9F0;
+}
+#i4:hover{
+    background-color: #86C9EF;
+}
+#i5:hover{
+    background-color: #00ACEE;
+}
+#i6:hover{
+    background-color: #171515;
+}
+.footer{
+    background-color:#CEECF5;
+      
+}
+#bgSignUp{
+    background-color: #F5D0A9;
+}
+.h1Font{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: #FE2E2E;
+}
+
+
+<!--signin-->
+.dangky {
+    width: 100%;
+    height: 53px;
+}
+a:link{
+    color:white;
+}
+.Register {
+    width: 30%;
+    height: 100%;
+    float: left;
+    transition: 1.5s ease;
+    margin-top: 15px;
+    border-radius: 100px;
+}
+
+.Return {
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding: 0;
+    position: relative;
+}
+
+    .Return span {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+.Register h1 {
+    line-height: 4px;
+    text-align: center;
+}
+
+#myHA {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+/*.Register:hover {
+        background: #03a9f4;
+        border-bottom: 1px solid blue;
+    }*/
+a:visited {
+    color: white;
+}
+button {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    background: #03a9f4;
+    color: white;
+    border: 1px solid blue;
+}
